@@ -14,6 +14,19 @@ and open the template in the editor.
         <meta name="description" content="Homepage delle esercitazioni di FPW">
     </head>
     <body>
-        <div>Registrati Miao!</div>
+        <div>
+            <h1>Miao! <a href="index.html">Ritorna al gattino bellino</a></h1>
+        </div>
+        <div>
+            <form action="index.html" method="post">
+                <label for="utente">Nome Utente:</label>
+                <input type="text" name="nomeUtente" id="utente" value="Inserisci"/>
+                <br/>
+                <label for="upass">Password:</label>
+                <input type="password" name="passwordUtente" id="upass"/>
+                <br/>
+                <input type="submit" value="Submit"/>
+            </form>
+        </div>
     </body>
 </html>
